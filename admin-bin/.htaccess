@@ -1,0 +1,10 @@
+AuthUserFile /home/genped/etc/htpasswd.admins
+AuthGroupFile /dev/null
+AuthName "the GenPed Administrator Interface"
+AuthType Basic
+<Limit GET POST PUT>
+#order deny,allow
+#deny from all
+allow from all
+require valid-user
+</Limit>
