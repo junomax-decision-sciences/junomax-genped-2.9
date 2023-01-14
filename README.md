@@ -4,8 +4,8 @@ Author: Christophe Person (christophejperson@gmail.com)
 	Wrote this around 1996 for the Epilepsy Foundation of America in collaboration with Professor Jeff Noebels.
  
 	Generate simple GIF images (genealogic trees) from a .ped textfile.
- 
-Format of .ped files: one line per individual
+	
+	Format of .ped files: one line per individual
  
  id	sex	mother_id father_id	spouse_id first_kid_id next_sibling_id proband phenotype
  
