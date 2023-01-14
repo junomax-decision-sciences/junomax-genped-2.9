@@ -12,12 +12,19 @@ Author: Christophe Person (christophejperson@gmail.com)
  Each map to a single Individual
     int id;     /* Unique Id for each individual/row in the file */
 	char sex;	/* 0: female	1: male */
+	
 	int father;	/* Father id */
+	
 	int mother;	/* Mother id */
+	
 	int spouse;	/* Spouse id */
+	
 	int kid;	/* First kid id */
+	
 	int sib;	/* Next sibling id */
+	
 	char proband;	/* 0 or 1 pedigree contributor */
+	
 	int pheno;	/* Phenotype_id */
 	
  The junomax-genped-2.9/src/libs/libped/2.9/ directory contains the libped C library and standalone example C program, and can be copied individually.
